@@ -14,4 +14,5 @@ if [ ! -f "$CACHE_FILE" ]; then
   $FD_EXECUTABLE -t f > "$CACHE_FILE"
 fi
 
-fzf < "$CACHE_FILE" > "$JUMP_FILE"
+# "|| :" is used to return happy 0 return code, or else it spams vscode dialogs
+fzf < "$CACHE_FILE" > "$JUMP_FILE" || :

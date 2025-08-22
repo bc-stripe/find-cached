@@ -3,7 +3,7 @@
   "displayName": "find-cached",
   "description": "Caches the list of files to jump to for faster performance in large codebases",
   "publisher": "bc-stripe",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": "https://github.com/bc-stripe/find-cached",
   "engines": {
     "vscode": "^1.99.3"
