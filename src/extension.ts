@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "find-cached" is now active!');
-	const extension = vscode.extensions.getExtension("undefined_publisher.find-cached");
+	const extension = vscode.extensions.getExtension("bc-stripe.find-cached");
 	const folders = vscode.workspace.workspaceFolders;
 
 	if (folders) {
